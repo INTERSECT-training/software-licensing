@@ -2,15 +2,24 @@
 title: "Documenting Your Choice of License"
 teaching: 10
 exercises: 10
-questions:
-- "What are the two basic strategies for documenting your choice of license?"
-- "What information should you include in each file in your software?"
-objectives:
-- "Understand the importance of marking your software with your chosen license and copyright information."
-keypoints:
-- "License and copyright information can be documented in a centralized manner (at the repository level) and within individual files."
-- "Individual files should include enough information to identify that they are copyrighted and licensed and point the recipient to the details."
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What are the two basic strategies for documenting your choice of license?
+- What information should you include in each file in your software?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the importance of marking your software with your chosen license and copyright information.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 
 So you've chosen a license for your software.
 Now you need to ensure that people are aware of it!
@@ -26,14 +35,18 @@ However, if an individual file is separated from the distribution or repository,
 
 The [Software Freedom Law Center](https://softwarefreedom.org/)'s (SFLC's) whitepaper on [Managing copyright information within a free software project](https://softwarefreedom.org/resources/2012/ManagingCopyrightInformation.html) suggests that the best practice is to do *both*.
 
-> ## Discussion
->
-> Have you ever received a file by itself, outside of the context of a version control repository or complete distribution of the package, for example as a potential solution to a problem or a bug?
-> Was the origin of the file and its copyright and licensing evident to you?
-> Or perhaps the person who gave it to you told you about the license and copyright terms?
->
-> Did that file (or parts of it) end up in another software package that you were working on at the time?
-{: .discussion}
+
+::::::::::::::::::::::::::::::::::::: discussion
+
+ ## Discussion
+
+ Have you ever received a file by itself, outside of the context of a version control repository or complete distribution of the package, for example as a potential solution to a problem or a bug?
+ Was the origin of the file and its copyright and licensing evident to you?
+ Or perhaps the person who gave it to you told you about the license and copyright terms?
+
+ Did that file (or parts of it) end up in another software package that you were working on at the time?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Centralized license and copyright information
 
@@ -93,10 +106,13 @@ This file is part of Foo Project. It is subject to the license terms in the LICE
 
 Consider writing scripts to help you insert and maintain the file-scope copyright and license headers you decide upon.
 
-> ## Discussion
->
-> Is there any software that you work with directly, or in your community, which you know has a license associated with it but is not marked in at least one of the two ways we've discussed here (centralized and file-scope)?
-{: .discussion}
+::::::::::::::::::::::::::::::::::::: discussion
+
+ ## Discussion
+
+ Is there any software that you work with directly, or in your community, which you know has a license associated with it but is not marked in at least one of the two ways we've discussed here (centralized and file-scope)?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Badges
 
@@ -104,7 +120,7 @@ Badges at the top of `README.md` files are a popular way to summarize a variety 
 Such badges often include testing status and other dynamic information.
 Licenses are pretty static, so it may be more and so more fun than functional, but badges are available to reflect many popular licenses.
 
-The badge generation site <https://shields.io> can automatically render a badge for any license that GitHub recognizes by simply referencing the repository as follows:
+The badge generation site <https://shields.io can automatically render a badge for any license that GitHub recognizes by simply referencing the repository as follows:
 
 ```
 ![GitHub](https://img.shields.io/github/license/:user/:repo)
@@ -116,4 +132,10 @@ The site also provides many license badges which can be selected explicitly, suc
 
 While the [shields.io](https://shields.io) site lists many licenses directly, a developer named [Lukas Himsel](https://gist.github.com/lukas-h) has posted a [Gist](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba) which provides badges for even more licenses.
 
-{% include links.md %}
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- License and copyright information can be documented in a centralized manner (at the repository level) and within individual files.
+- Individual files should include enough information to identify that they are copyrighted and licensed and point the recipient to the details.
+
+::::::::::::::::::::::::::::::::::::::::::::::::

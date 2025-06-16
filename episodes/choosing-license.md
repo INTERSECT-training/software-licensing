@@ -2,18 +2,27 @@
 title: "Choosing an Open Source License"
 teaching: 13
 exercises: 15
-questions:
-- "What are some of the reasons for going with an established open-source license instead of creating a new one?"
-- "What are some of the most popular open-source licenses?"
-- "Name a tool that can help with a more detailed understanding of common open-source licenses?"
-objectives:
-- "Be able to identify some of the most common open-source licenses."
-- "Know about a tool that can help you select an open-source license that meets your needs."
-keypoints:
-- "There are many OSI-approved licenses already available covering most needs.  Some publications or other venues require OSI-approved licenses."
-- "The variants of the GNU GPL license are among the most popular copyleft licenses, while Apache, BSD, and MIT are among the most popular permissive licenses."
-- "[ChooseALicense.com](https://choosealicense.com) has analyses of more than 40 open-source licenses along 13 different characteristics."
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What are some of the reasons for going with an established open-source license instead of creating a new one?
+- What are some of the most popular open-source licenses?
+- Name a tool that can help with a more detailed understanding of common open-source licenses?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Be able to identify some of the most common open-source licenses.
+- Know about a tool that can help you select an open-source license that meets your needs.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
 
 ## Don't reinvent the license
 
@@ -126,18 +135,29 @@ Once you have some candidates, you should read each of them carefully -- there m
 And remember, even the list of licenses that ChooseALicense.com has analyzed is less than half of the number of OSI-approved open-source licenses.
 So don't give up!
 
-![A snapshot of https://choosealicense.com/appendix/ taken 2023-06-28]({{ page.root }}/fig/choosealicense-appendix-2023-06-28.png)
+![A snapshot of https://choosealicense.com/appendix/ taken 2023-06-28](fig/choosealicense-appendix-2023-06-28.png){alt=""}
 
-> ## Activity: Open-source licenses in your community
->
-> Try to identify 2-3 open-source software packages within your community that use different licenses.
->
-> Which licenses do they use?
-> Or does a single license strongly dominate your community?
-> Are they permissive or copyleft?
-> In what other ways do they differ?
->
-> (Hint: the <https://choosealicense.com/appendix/> page might be helpful.)
-{: .challenge}
+::::::::::::::::::::::::::::::::::::: challenge 
 
-{% include links.md %}
+ ## Activity: Open-source licenses in your community
+
+ Try to identify 2-3 open-source software packages within your community that use different licenses.
+
+ Which licenses do they use?
+ Or does a single license strongly dominate your community?
+ Are they permissive or copyleft?
+ In what other ways do they differ?
+
+ (Hint: the <https://choosealicense.com/appendix/> page might be helpful.)
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- There are many OSI-approved licenses already available covering most needs.  Some publications or other venues require OSI-approved licenses.
+- The variants of the GNU GPL license are among the most popular copyleft licenses, while Apache, BSD, and MIT are among the most popular permissive licenses.
+- [ChooseALicense.com](https://choosealicense.com) has analyses of more than 40 open-source licenses along 13 different characteristics.
+
+::::::::::::::::::::::::::::::::::::::::::::::::

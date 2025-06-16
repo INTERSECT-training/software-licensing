@@ -2,19 +2,24 @@
 title: "Collaboration and Licensing"
 teaching: 17
 exercises: 15
-questions:
-- "What are the concerns with accepting code from collaborators?"
-- "What mechanisms are there to ensure collaborators agree to license terms?"
-- "What concerns are there with using code from online forums?"
-- "Why are LLMs challenging for copyright and licensing?"
-objectives:
-- "Understand the challenges surrounding code contributed from outside the project."
-keypoints:
-- "Collaborators may be resctricted in their ability to contribute to open source projects (e.g. industrial partners) or unable to copyright their work (government employees)."
-- "You can include a Contributor License Agreement (CLA) to ensure collaborators agree to license terms prior to committing code."
-- "Stackoverflow content is licensed as CC BY-SA, which is incompatible with permissive or proprietary licenses."
-- "License and copyright around LLM-generated content is actively being litigated."
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What are the concerns with accepting code from collaborators?
+- What mechanisms are there to ensure collaborators agree to license terms?
+- What concerns are there with using code from online forums?
+- Why are LLMs challenging for copyright and licensing?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the challenges surrounding code contributed from outside the project.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 If you are lucky, you have an open-source project with an active user base and
 a few developers to help field issues.  As a project grows, it's possible you
@@ -57,14 +62,17 @@ They can be integrated into a PR or commit message instead of a separate legal d
 In either case, the policies for contributors should be clear and easy to find
 and verify if legal issues do arise.
 
-> ## Activity
->
-> What are the contributor guidelines for some open source code you use?
->
-> Pick one dependency or utility you regularly use.
-> Does the project have a CONTRIBUTING file? CLA? DCO?  Does the license
-> mention contributors?
-{: .challenge}
+::::::::::::::::::::::::::::::::::::: challenge
+
+ ## Activity
+
+ What are the contributor guidelines for some open source code you use?
+
+ Pick one dependency or utility you regularly use.
+ Does the project have a CONTRIBUTING file? CLA? DCO?  Does the license
+ mention contributors?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Code from internet forums
 
@@ -92,11 +100,14 @@ Fair use does not use length as a factor, if you directly copy and paste code
 and you want to distribute that code, it would then fall under the original license,
 for stackoverflow, that is CC-BY-SA.
 
-> ## Pop Quiz
->
-> If you use CC-BY-SA work in your project, what kind of license should you use?
->
-{: .challenge}
+::::::::::::::::::::::::::::::::::::: challenge
+
+ ## Pop Quiz
+
+ If you use CC-BY-SA work in your project, what kind of license should you use?
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## LLMs and code assistants
 
@@ -185,3 +196,15 @@ for information and to point you towards a library call, but don't copy its
 entire output.  If you do copy and paste code, you may also want to mark in the
 source code what is LLM-derived.  Doing this consistently could safeguard parts
 of your project that may resemble proprietary code by chance.
+
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Collaborators may be resctricted in their ability to contribute to open source projects (e.g. industrial partners) or unable to copyright their work (government employees).
+- You can include a Contributor License Agreement (CLA) to ensure collaborators agree to license terms prior to committing code.
+- Stackoverflow content is licensed as CC BY-SA, which is incompatible with permissive or proprietary licenses.
+- License and copyright around LLM-generated content is actively being litigated.
+
+::::::::::::::::::::::::::::::::::::::::::::::::

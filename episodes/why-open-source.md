@@ -2,18 +2,24 @@
 title: "Why Choose Open Source Licensing?"
 teaching: 18
 exercises: 20
-questions:
-- "What are some of the reasons for preferring open-source licensing over proprietary?"
-- "Does open-source licensing prevent you from making money off of your software?"
-- "Does open-source licensing guarantee the sustainability of your software?"
-objectives:
-- "Understand some of the reasons for preferring open-source licensing over proprietary."
-- "Understand that the choice of license is a tool for your software and your project goals."
-keypoints:
-- "Philosophical reasons to choose open-source licenses include consistency with the scientific method and openness of publicly funded research results.  Another reason is that it facilitates building a community around your software."
-- "Most software-related business models work as well for open-source software as for proprietary."
-- "Open-source doesn't guarantee that outsiders will engage with your software.  You'll need to work to build a community of contributors and users."
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+- What are some of the reasons for preferring open-source licensing over proprietary?
+- Does open-source licensing prevent you from making money off of your software?
+- Does open-source licensing guarantee the sustainability of your software?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand some of the reasons for preferring open-source licensing over proprietary.
+- Understand that the choice of license is a tool for your software and your project goals.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 ## The philosophical reasons
 
@@ -123,15 +129,18 @@ Basically, you want to ask yourself (and your collaborators) what rights you wan
 
 And think about how these choices will affect your project, would-be contributors to the software, and would-be users of the software.
 
-> ## Discussion
->
-> Have you ever been involved in a discussion of proprietary versus open source licensing for a software package?
->
-> What arguments were made in favor of proprietary licensing?
-> What arguments were made in favor of open-source?
->
-> Was there a particular argument that carried the day, in either direction?
-{: .discussion}
+::::::::::::::::::::::::::::::::::::: discussion
+
+## Discussion
+
+Have you ever been involved in a discussion of proprietary versus open source licensing for a software package?
+
+What arguments were made in favor of proprietary licensing?
+What arguments were made in favor of open-source?
+
+Was there a particular argument that carried the day, in either direction?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Avoid magical thinking: Open-source is no guarantee of sustainability or community
 
@@ -141,16 +150,31 @@ Besides having software that is potentially useful to others, you'll need to wor
 Many open source software projects never receive any outside contributions.
 In a webinar entitled [What I Learned from 20 Years of Leading Open Source Projects](https://ideas-productivity.org/events/hpc-best-practices-webinars/#webinar056), Wolfgang Bangerth, one of the founders of the deal.II package, offers his experience of what it took to build a small single-group software project into a truly community-based resource -- and what it takes to keep it going.
 
-> ## Discussion
->
-> Does your research community include any truly community-based software packages?
-> Packages which are both widely used *and* widely contributed to?
->
-> If you happen to be involved in such a project, what is your role?
-> User?
-> Contributor?
-> Maintainer?
-> What is your experience with the community?
-{: .discussion}
 
-{% include links.md %}
+::::::::::::::::::::::::::::::::::::: discussion
+
+## Discussion
+
+Does your research community include any truly community-based software packages?
+Packages which are both widely used *and* widely contributed to?
+
+If you happen to be involved in such a project, what is your role?
+User?
+Contributor?
+Maintainer?
+What is your experience with the community?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Philosophical reasons to choose open-source licenses include consistency with the scientific method and openness of publicly funded research results.  Another reason is that it facilitates building a community around your software.
+- Most software-related business models work as well for open-source software as for proprietary.
+- Open-source doesn't guarantee that outsiders will engage with your software.  You'll need to work to build a community of contributors and users.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
