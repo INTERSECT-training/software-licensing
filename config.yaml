@@ -18,7 +18,7 @@ carpentry: 'intersect'
 carpentry_description: 'Software Licensing'
 
 # Overall title for pages.
-title: 'Software Licensing' # FIXME
+title: 'Software Licensing' 
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: ~ # FIXME
@@ -28,19 +28,19 @@ keywords: 'software, data, lesson, The Carpentries' # FIXME
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'beta' # FIXME
+life_cycle: 'beta'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/INTERSECT-training/software-licensing' # FIXME
+source: 'https://github.com/INTERSECT-training/software-licensing' 
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'icosden@princeton.edu' 
 
 # Navigation ------------------------------------------------
 #
@@ -89,3 +89,15 @@ profiles:
 # sandpaper and varnish versions) should live
 
 varnish: intersect-training/varnish
+
+analytics: |
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TQ5J6DEQ4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-0TQ5J6DEQ4');
+  </script>
+
