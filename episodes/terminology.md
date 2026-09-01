@@ -62,6 +62,8 @@ They are considered to be in the **public domain**.
 The motivation for this was to ensure public access to the U.S. legal code.
 This does not apply to works created by *contractors* for the U.S. government (e.g., federally funded research).
 
+Practically, whether works of the US government are released may be complicated by official secrets laws and exceptions to freedom of information requests.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
